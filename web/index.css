@@ -1,0 +1,37 @@
+*{
+	cursor: default;
+	font-family: Segoe UI;
+}
+body{
+	margin: 5px;
+	display: block;
+	-ms-overflow-style: none;
+	overflow-x: hidden;
+}
+#path{
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	transition: 0.5s all;
+}
+#path:hover{
+	background-color: rgba(0,0,255,.1);
+	transition: 0.5s all;
+}
+.files{
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: 0.5s all;
+}
+.files:hover{
+	background-color: rgba(0,50,255,.1);
+	transition: 0.5s all;	
+}
+.files_img{
+	width: 20px;
+	height: 20px;
+}
